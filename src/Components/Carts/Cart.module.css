@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.cartItem{
+    width: 90%;
+    overflow: scroll;
+}
+
+.cart button {
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,80 @@
+.nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  height: 4rem;
+  padding: 0.1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+.logo:hover {
+  color: violet;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav .navbar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin: 0rem 0.5rem;
+  padding: 0rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar ul li:hover {
+  color: violet;
+}
+
+.cartButton {
+  display: flex;
+  align-items: center;
+}
+
+.cartButton button {
+  width: 15rem;
+  padding: 0.5rem 3rem;
+  font-size: 1.2rem;
+  outline: none;
+  border-radius: 0.2rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.cartButton button:hover {
+  border: 1px solid violet;
+}
+
+.cartButton span{
+  padding: 0.2rem 1rem;
+  margin: 0rem 1rem;
+  border-radius: 1rem;
+  background-color: blueviolet;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+}
