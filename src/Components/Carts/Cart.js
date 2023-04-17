@@ -13,10 +13,11 @@ function Cart(props) {
         <div className={classes.cartItem}>
           {cartCtx.items.map((item) => {
             return (
-              <CartItem name={item.name} price={item.price} url={item.url}></CartItem>
+              <CartItem key={item.id} id={item.id} name={item.name} price={item.price} url={item.url} quantity={item.quantity}></CartItem>
             )
           })}
         </div>
+        <h3>Total Amount : {cartCtx.totalAmount}</h3>
         <button onClick={props.onClose}>Close</button>
       </div>
     </Modal>

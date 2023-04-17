@@ -14,6 +14,7 @@ function productSection(props) {
         props.items.map((item) => {
           return <Product
             key={item.id}
+            id={item.id}
             name = {item.name}
             category = {item.category}
             price = {item.price}

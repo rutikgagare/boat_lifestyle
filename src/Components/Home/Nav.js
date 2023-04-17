@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import classes from './Nav.module.css';
-import cartContext from '../store/cart-context';
+import cartContext from '../../store/cart-context';
 
 function Nav(props) {
     const cartCtx = useContext(cartContext);

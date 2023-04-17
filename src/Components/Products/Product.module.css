@@ -18,7 +18,7 @@
 }
 
 .description{
-  /* border: 2px solid red; */
+  margin: 0.5rem 0;
   padding: 0.1rem 1rem;
 }
 
@@ -30,13 +30,24 @@
 
 .description h4 {
   font-size: 1rem;
-  font-weight: 300;
-  /* line-height: 1rem; */
+  font-weight: 400;
+  margin: 0.5rem 0;
+}
+
+.description input{
+  width: 3rem;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 1rem;
 }
 
 .cartButton{
   padding: 0 0.5rem;
 }
+
 .product button {
   border: none;
   outline: none;
@@ -45,7 +56,7 @@
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-size: 1rem;
-  margin: 0.5rem 0;
+  margin: 1rem 0.5rem;
 }
 
 .product button:hover {
