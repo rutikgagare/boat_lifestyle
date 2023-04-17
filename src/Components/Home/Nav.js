@@ -1,25 +1,26 @@
 import React, { useContext } from 'react';
 import classes from './Nav.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cartContext from '../../store/cart-context';
+import logo from './boat_logo_small.avif';
+
 
 function Nav(props) {
     const cartCtx = useContext(cartContext);
     return (
         <div className={classes.nav}>
             <div className={classes.logo}>
-                <h2>E-Commerce</h2>
+                <img src={logo} alt="" />
             </div>
             <div className={classes.navbar}>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Products</li>
-                    <li>Trending</li>
+                    <li>Categories</li>
+                    <li>Daily Deals</li>
+                    <li>Gift With Boat</li>
+                    <li>More</li>
                 </ul>
             </div>
             <div className={classes.cartButton}>
-                <button onClick={props.showCart}> <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> Cart <span>{cartCtx.items.length}</span></button>
+                <button onClick={props.showCart}>Cart <span>{cartCtx.items.length}</span></button>
             </div>
         </div>
     )

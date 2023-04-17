@@ -26,10 +26,10 @@
 .cart button {
     border: none;
     outline: none;
-    background-color: purple;
+    background-color: red;
     color: white;
     padding: 0.3rem 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     font-size: 1.2rem;
     margin: 0.5rem;
 }

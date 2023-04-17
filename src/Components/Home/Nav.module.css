@@ -1,13 +1,14 @@
 .nav {
   display: flex;
-  background-color: black;
-  color: white;
+  background-color: white;
   justify-content: space-around;
   height: 4rem;
   padding: 0.1rem;
   position: sticky;
   top: 0;
   left: 0;
+  box-shadow: 0px 1px 5px rgb(174, 172, 172);
+  z-index: 999;
 }
 
 .logo {
@@ -18,9 +19,6 @@
 .logo h2 {
   font-weight: 200;
   font-size: 1.5rem;
-}
-.logo:hover {
-  color: violet;
 }
 
 .navbar {
@@ -35,14 +33,13 @@
 }
 
 .navbar ul li {
-  margin: 0rem 0.5rem;
-  padding: 0rem 1rem;
+  margin: 0rem 1rem;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .navbar ul li:hover {
-  color: violet;
+  border-bottom: 2px solid black;
 }
 
 .cartButton {
@@ -56,20 +53,15 @@
   font-size: 1.2rem;
   outline: none;
   border-radius: 0.2rem;
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: transparent;
-  color: white;
 }
 
-.cartButton button:hover {
-  border: 1px solid violet;
-}
-
-.cartButton span{
+.cartButton span {
   padding: 0.2rem 1rem;
   margin: 0rem 1rem;
   border-radius: 1rem;
-  background-color: blueviolet;
+  background-color: red;
   color: white;
 }
 

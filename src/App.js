@@ -32,63 +32,63 @@ const itemList = [
     name: "boAt Airdopes 161",
     category: "Headphone",
     price: 1099,
-    url: 'https://rukminim1.flixcart.com/image/416/416/xif0q/headphone/5/n/s/-original-imagg8mrhpnw2hqd.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main_black_fa1c6ec3-93b7-443e-ae82-d5eeb34258f8_600x.png?v=1641206192'
   },
   {
     id: "id5",
     name: "boAt Airdopes 381 ",
     category: "Airdopes",
     price: 1299,
-    url: 'https://rukminim1.flixcart.com/image/416/416/ksdjma80/headphone/w/c/f/airdopes-381-airdopes-383-boat-original-imag5ygavs8eryqw.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/3c53a1e3-bffe-4c6d-b102-cc409c1bfe71_600x.png?v=1625045117'
   },
   {
     id: "id6",
     name: "boAt Bassheads 100",
     category: "Earphone",
     price: 399,
-    url: 'https://rukminim1.flixcart.com/image/416/416/kqwobrk0/headphone/3/n/b/bassheads-100-boat-original-imag4tgdrpxfh3pk.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/bassheads-100-make-in-india-orange_1875x.png?v=1613743116'
   },
   {
     id: "id7",
-    name: "boAt Airdopes 192",
+    name: "boAt Airdopes 383 ",
     category: "Airdopes",
     price: 1899,
-    url: 'https://rukminim1.flixcart.com/image/416/416/xif0q/headphone/l/j/e/-original-imagnfufffaczakh.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/airdopes-383-black_600x.png?v=1613457326'
   },
   {
     id: "id8",
     name: "boAt Rockerz 510",
     category: "Headphone",
     price: 1599,
-    url: 'https://rukminim1.flixcart.com/image/416/416/l3vxbbk0/headphone/w/q/e/-original-imagewuzhfbtygzw.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/5d5377dc-d3dd-48ba-8ec9-2a1630146d8d_600x.png?v=1625045983'
   },
   {
     id: "id9",
     name: "boAt Rockerz 260",
     category: "Bluetooth",
     price: 1299,
-    url: 'https://rukminim1.flixcart.com/image/416/416/l27wtjk0/headphone/d/i/b/-original-imagdm4a8wkxazjs.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main3_e0d541c5-72de-4f54-a19b-1c324082742a_600x.png?v=1654195093'
   },
   {
     id: "id10",
     name: "boAt BassHeads 220",
     category: "Earphone",
     price: 699,
-    url: 'https://rukminim1.flixcart.com/image/416/416/kjiwfbk0-0/headphone/y/p/j/bassheads-220-super-extra-bass-boat-original-imafz2hsuhf9nwws.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Orange_05fdf488-bd1f-437e-8d13-dc428e957628_2188x.png?v=1660654083'
   },
   {
     id: "id11",
     name: "boAt Airdopes 131",
     category: "AirDopes",
     price: 1499,
-    url: 'https://rukminim1.flixcart.com/image/416/416/kv9urgw0/headphone/z/k/d/airdopes-131-boat-original-imag87pw3zehzswb.jpeg?q=70'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Red_d8ee4785-21ae-4fee-943e-d5c571131ae8_1300x.png?v=1660654082'
   },
   {
     id: "id12",
     name: "Boat BassHeads 100",
     category: "EarPhone",
     price: 399,
-    url: 'https://m.media-amazon.com/images/I/61l+14s5QVL._AC_SX466_.jpg'
+    url: 'https://cdn.shopify.com/s/files/1/0057/8938/4802/products/c3d0fbbd-9479-4351-bf04-91136da2ae91_600x.png?v=1656750183'
   }
 ];
 
