@@ -10,8 +10,8 @@ function CartItem(props) {
       </div>
 
       <div className={classes.cartItemDescription}>
-        <h3>Product Name: {props.name}</h3>
-        <h3>Price: Rs.{props.price}</h3>
+        <h3>{props.name}</h3>
+        <h3>₹ {props.price}</h3>
         <h3>Quantity: {props.quantity}</h3>
       </div>
 

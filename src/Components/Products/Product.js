@@ -29,9 +29,9 @@ function Product(props) {
 
       <div className={classes.description}>
         <h3>{props.name}</h3>
-        <h4>Price : Rs.{props.price}</h4>
+        <h4>₹ {props.price}</h4>
         <hr />
-        <h4>Category : {props.category}</h4>
+        <h4>Category: {props.category}</h4>
         <span>Quantity : </span> <input ref={qtyInputRef} type='number' placeholder='1' defaultValue={1} id='qty' />
         <div className={classes.cartButton}>
           <button onClick={addToCartHandler}>ADD TO CART</button>
