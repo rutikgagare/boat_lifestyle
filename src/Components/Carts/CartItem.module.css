@@ -13,11 +13,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 60%;
 }
 
 .cartItemImage{
-    width: 50%;
+    width: 40%;
 }
 
 .cartItemDescription h3{
