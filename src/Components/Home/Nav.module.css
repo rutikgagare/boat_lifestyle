@@ -11,14 +11,9 @@
   z-index: 999;
 }
 
-.logo {
+.logo{
   display: flex;
   align-items: center;
-}
-
-.logo h2 {
-  font-weight: 200;
-  font-size: 1.5rem;
 }
 
 .navbar {
@@ -68,5 +63,8 @@
 @media screen and (max-width: 600px) {
   .navbar {
     display: none;
+  }
+  .logo img{
+    height: 1.8rem;;
   }
 }
