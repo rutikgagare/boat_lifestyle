@@ -67,10 +67,10 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .productImg img{
-    width: 11rem;
-    height: 14rem;
+    width: 8rem;
+    height: 8rem;
   }
 }
 
