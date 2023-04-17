@@ -9,6 +9,17 @@
     border: 2px solid red;
 }
 
+.cartItemDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.cartItemImage{
+    width: 50%;
+}
+
 .cartItemDescription h3{
     font-size: 1.2rem;
     font-weight: 400;
@@ -16,16 +27,16 @@
 
 .cartItemImage img{
     display: block;
-    width: 8rem;
+    width: 7rem;
     margin: auto;
-    height: 8rem;
+    height: 7rem;
 }
 
 @media screen and (max-width: 700px) {
     .cartItemDescription h3{
         font-size: 1rem;
     }
-    .cartItem{
+    /* .cartItem{
         flex-direction: column;
-    }
+    } */
 }
