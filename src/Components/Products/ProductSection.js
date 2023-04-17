@@ -42,7 +42,7 @@ function ProductSection(props) {
   return (
     <div className={classes.productSection}>
       <div className={classes.heading}>
-        <h2>Product Section</h2>
+        <h2>Latest Product Section</h2>
       </div>
       <div className={classes.productSection_content}>
         {
