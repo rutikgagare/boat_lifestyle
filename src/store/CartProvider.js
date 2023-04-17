@@ -1,4 +1,4 @@
-import React,{useState,useReducer} from 'react';
+import React,{useReducer} from 'react';
 import cartContext from './cart-context';
 
 const defaultState = {
