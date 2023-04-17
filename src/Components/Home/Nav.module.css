@@ -43,18 +43,18 @@
 }
 
 .cartButton button {
-  width: 10rem;
+  width: 7rem;
   padding: 0.5rem;
   font-size: 1.2rem;
   outline: none;
   border-radius: 0.2rem;
-  border: 1px solid black;
+  border: none;
   background-color: transparent;
 }
 
 .cartButton span {
-  padding: 0.2rem 1rem;
-  margin: 0rem 1rem;
+  padding: 0.2rem 0.7rem;
+  margin: 0rem 0.5rem;
   border-radius: 1rem;
   background-color: red;
   color: white;

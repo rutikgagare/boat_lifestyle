@@ -20,7 +20,8 @@ function Nav(props) {
                 </ul>
             </div>
             <div className={classes.cartButton}>
-                <button onClick={props.showCart}>Cart <span>{cartCtx.items.length}</span></button>
+                <i class="fas fa-user"></i>
+                <button onClick={props.showCart}><i class="fas fa-cart-shopping"></i><span>{cartCtx.items.length}</span></button>
             </div>
         </div>
     )
