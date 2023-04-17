@@ -3,6 +3,11 @@
     margin: 1rem auto;
 }
 
+.loading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 .heading h2{
     font-weight: 400;
     text-align: center;
