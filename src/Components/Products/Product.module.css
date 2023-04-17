@@ -1,8 +1,8 @@
 .product {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 1rem;
-  min-width: 300px;
-  max-width: 300px;
+  min-width: 250px;
+  max-width: 250px;
   background-color: rgb(214, 211, 211);
 }
 
@@ -68,11 +68,6 @@
 }
 
 @media screen and (max-width: 800px) {
-  .product {
-    min-width: 250px;
-    max-width: 250px;
-  }
-
   .productImg img{
     width: 11rem;
     height: 14rem;
@@ -80,11 +75,6 @@
 }
 
 @media screen and (max-width: 700px) {
-  .product {
-    min-width: 270px;
-    max-width: 270px;
-  }
-
   .productImg img{
     width: 10rem;
     height: 13rem;

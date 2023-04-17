@@ -4,6 +4,7 @@ import Nav from './Components/Home/Nav';
 import ProductSection from './Components/Products/ProductSection';
 import Cart from './Components/Carts/Cart';
 import CartProvider from './store/CartProvider';
+import Features from './Components/Home/Features';
 
 function App() {
   const [showCart, setShowCart] = useState(false);
@@ -19,6 +20,7 @@ function App() {
   return (
     <CartProvider className="App">
       <Nav showCart={showCartHandler}></Nav>
+      <Features></Features>
       <ProductSection></ProductSection>
       {showCart && <Cart onClose={closeCartHandler}></Cart>}
     </CartProvider>

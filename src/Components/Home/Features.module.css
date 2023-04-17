@@ -1,0 +1,32 @@
+.features{
+    width: 90%;
+    display: flex;
+    background-color: rgb(208, 223, 223);
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature h3{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.feature img{
+    height: 3rem;
+    width: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+    .features{
+        display: none;
+    }
+}
