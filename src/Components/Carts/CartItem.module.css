@@ -1,27 +1,28 @@
 .cartItem{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
     width: 95%;
+    display: flex;
+    padding: 1rem;
+    align-items:center;
+    gap: 1rem;
     margin: 1rem auto;
     border-radius: 1rem;
     border: 1px solid purple;
 }
 
-.cartItem h3{
+.cartItemDescription h3{
     font-size: 1.2rem;
     font-weight: 400;
 }
 
-.cartItem img{
+.cartItemImage img{
+    display: block;
     width: 8rem;
+    margin: auto;
     height: 8rem;
 }
 
 @media screen and (max-width: 700px) {
-    .cartItem h3{
+    .cartItemDescription h3{
         font-size: 1rem;
     }
 }

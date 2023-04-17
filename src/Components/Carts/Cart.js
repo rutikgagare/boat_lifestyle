@@ -17,8 +17,16 @@ function Cart(props) {
             )
           })}
         </div>
-        <h3>Total Amount : {cartCtx.totalAmount}</h3>
-        <button onClick={props.onClose}>Close</button>
+
+        <div className={classes.totalAmount}>
+          <h3>Total Amount : Rs. {cartCtx.totalAmount} </h3>
+        </div>
+
+        <div className={classes.cartButtons}>
+          <button onClick={props.onClose}>Close</button>
+          <button>Order</button>
+        </div>
+
       </div>
     </Modal>
   )

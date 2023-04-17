@@ -1,14 +1,26 @@
 .cart{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     max-height:60vh;
+    overflow: scroll;
 }
 
 .cartItem{
     width: 90%;
-    overflow: scroll;
+    margin: 1rem auto;
+}
+
+.cartButtons{
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.totalAmount{
+    /* border: 2px solid red; */
+    padding: 0 0.5rem;
+    width: 90%;
+    margin: 1rem auto;
 }
 
 .cart button {
@@ -16,10 +28,10 @@
     outline: none;
     background-color: purple;
     color: white;
-    padding: 0.6rem 1.5rem;
+    padding: 0.3rem 1.5rem;
     border-radius: 0.5rem;
     font-size: 1.2rem;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
 }
 
 .cart h3{

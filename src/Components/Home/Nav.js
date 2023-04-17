@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import classes from './Nav.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import cartContext from '../../store/cart-context';
 
 function Nav(props) {
@@ -18,7 +19,7 @@ function Nav(props) {
                 </ul>
             </div>
             <div className={classes.cartButton}>
-                <button onClick={props.showCart}>Cart <span>{cartCtx.items.length}</span></button>
+                <button onClick={props.showCart}> <FontAwesomeIcon icon="fa-solid fa-cart-shopping" /> Cart <span>{cartCtx.items.length}</span></button>
             </div>
         </div>
     )
