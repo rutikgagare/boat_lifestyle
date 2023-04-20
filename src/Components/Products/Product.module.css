@@ -1,9 +1,10 @@
 .product {
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   border-radius: 1rem;
-  min-width: 250px;
-  max-width: 250px;
-  background-color: rgb(214, 211, 211);
+  min-width: 290px;
+  max-width: 300px;
+  background-color: rgb(236, 233, 233);
+  margin: auto;
 }
 
 .product .productImg{
@@ -12,26 +13,26 @@
 }
 
 .productImg img{
-  width: 12rem;
-  height: 14rem;
+  width: 14rem;
+  height: 16rem;
 }
 
 .description{
   background-color: white;
-  width: 98%;
+  width: 95%;
   border-radius: 0.8rem;
-  margin: 0.2rem auto;
+  margin: 0rem auto;
+  margin-bottom: 0.5rem;
   padding: 0.1rem 1rem;
 }
 
 .description h3 {
   font-size: 1.3rem;
   font-weight: 500;
-  /* line-height: 1.5rem; */
 }
 
 .description h4 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin: 0.2rem 0;
 }
@@ -46,10 +47,6 @@
   font-size: 1rem;
 }
 
-.cartButton{
-  padding: 0 0.5rem;
-}
-
 .product button {
   border: none;
   outline: none;
@@ -60,7 +57,7 @@
   font-size: 1rem;
   font-weight: 500;
   margin: 0.5rem auto;
-  width: 99%;
+  width: 100%;
 }
 
 .product button:hover {
@@ -78,6 +75,11 @@
   .productImg img{
     width: 10rem;
     height: 13rem;
+  }
+
+  .product{
+    width: 90%;
+    margin-bottom: 1rem;
   }
 }
 

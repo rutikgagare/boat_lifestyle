@@ -1,5 +1,6 @@
 .productSection{
-    width: 90%;
+    width: 95%;
+    /* border: 2px solid red; */
     margin: 1rem auto;
 }
 
@@ -14,9 +15,10 @@
 }
 
 .productSection_content{
-    padding: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+

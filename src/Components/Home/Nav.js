@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import classes from './Nav.module.css';
 import cartContext from '../../store/cart-context';
-import logo from './boat_logo_small.avif';
+import logo from '../../Images/boat_logo_small.avif';
 
 
 function Nav(props) {

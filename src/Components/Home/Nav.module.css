@@ -2,13 +2,12 @@
   display: flex;
   background-color: white;
   justify-content: space-around;
-  height: 4rem;
-  padding: 0.1rem;
+  height: 5rem;
   position: sticky;
   top: 0;
   left: 0;
   box-shadow: 0px 1px 5px rgb(174, 172, 172);
-  z-index: 999;
+  z-index: 99;
 }
 
 .logo{
@@ -29,7 +28,7 @@
 
 .navbar ul li {
   margin: 0rem 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 

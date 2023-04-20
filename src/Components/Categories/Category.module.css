@@ -1,0 +1,32 @@
+.category{
+    display: flex;
+    gap: 0.5rem;
+    background-color: rgb(225, 222, 222);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 13rem;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.category_desc{
+    display: flex;
+    flex: 1;
+}
+
+.category_desc h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.category_img{
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .category{
+      margin: auto;
+      width: 90%;
+    }
+  }

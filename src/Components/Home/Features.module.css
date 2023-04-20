@@ -1,12 +1,12 @@
 .features{
-    width: 90%;
+    width: 95%;
     display: flex;
-    background-color: rgb(208, 223, 223);
+    background-color: rgb(237, 247, 247);
     justify-content: space-evenly;
     margin: 1rem auto;
     border-radius: 0.5rem;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .feature{

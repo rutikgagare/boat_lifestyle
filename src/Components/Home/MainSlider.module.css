@@ -1,0 +1,25 @@
+.mySwiper{
+    width: 95%;
+    margin: 0.5rem auto;
+}
+
+.slide img{
+    display: block;
+    margin: auto;
+}
+
+.mySwiper1{
+    display: none;
+    width: 95%;
+    margin: 0.5rem auto;
+}
+
+@media screen and (max-width: 700px) {
+    .mySwiper1{
+        display: block;
+    }
+
+    .mySwiper{
+        display: none;
+    }
+}

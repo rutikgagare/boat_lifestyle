@@ -2,6 +2,16 @@ import React, { useState, useEffect } from 'react';
 import Product from './Product';
 import classes from './ProductSection.module.css';
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper";
+
 function ProductSection(props) {
   const [itemList, setItemList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -45,18 +55,47 @@ function ProductSection(props) {
         <h2>Latest Product Section</h2>
       </div>
       <div className={classes.productSection_content}>
-        {
-          itemList.map((item) => {
-            return <Product
-              key={item.id}
-              id={item.id}
-              name={item.name}
-              category={item.category}
-              price={item.price}
-              url={item.url}
-            ></Product>
-          })
-        }
+
+      <Swiper
+        className={classes.swiper}
+        spaceBetween={20}
+        // centeredSlides={true}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        breakpoints={{
+          // when window width is >= 640px
+          800: {
+            width: 800,
+            slidesPerView: 3,
+          },
+          // when window width is >= 768px
+          1300: {
+            width: 1300,
+            slidesPerView: 4,
+          },
+        }}
+      >
+          {itemList.map((item, index) => (
+            <SwiperSlide key={item} virtualIndex={index}>
+              <Product
+                key={item.id}
+                id={item.id}
+                name={item.name}
+                category={item.category}
+                price={item.price}
+                url={item.url}
+              ></Product>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   )

@@ -5,6 +5,9 @@ import ProductSection from './Components/Products/ProductSection';
 import Cart from './Components/Carts/Cart';
 import CartProvider from './store/CartProvider';
 import Features from './Components/Home/Features';
+import MainSlider from './Components/Home/MainSlider';
+import DailyDeals from './Components/Products/DailyDeals';
+import ShopByCategory from './Components/Categories/ShopByCategory';
 
 function App() {
   const [showCart, setShowCart] = useState(false);
@@ -21,10 +24,12 @@ function App() {
     <CartProvider className="App">
       <Nav showCart={showCartHandler}></Nav>
       <Features></Features>
+      <MainSlider></MainSlider>
+      <DailyDeals></DailyDeals>
+      <ShopByCategory></ShopByCategory>
       <ProductSection></ProductSection>
       {showCart && <Cart onClose={closeCartHandler}></Cart>}
     </CartProvider>
-
   );
 }
 

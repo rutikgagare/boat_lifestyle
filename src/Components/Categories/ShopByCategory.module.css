@@ -1,0 +1,20 @@
+.ShopByCategory{
+    width: 95%;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.categories{
+    display: flex;
+    /* justify-content: center; */
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    /* border: 2px solid red; */
+}
+
+.ShopByCategory h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem;
+}
