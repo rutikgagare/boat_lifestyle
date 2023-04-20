@@ -58,7 +58,7 @@ function ProductSection(props) {
 
       <Swiper
         className={classes.mySwiper}
-        spaceBetween={20}
+        spaceBetween={30}
         // centeredSlides={true}
         loop={true}
         autoplay={{
@@ -72,6 +72,10 @@ function ProductSection(props) {
         modules={[Autoplay, Pagination, Navigation]}
         breakpoints={{
           // when window width is >= 640px
+          600: {
+            width: 600,
+            slidesPerView: 2,
+          },
           800: {
             width: 800,
             slidesPerView: 3,

@@ -1,6 +1,5 @@
 .productSection{
     width: 95%;
-    /* border: 2px solid red; */
     margin: 1rem auto;
 }
 
@@ -14,9 +13,5 @@
     text-align: center;
 }
 
-.mySwiper{
-    width: 100%;
-    margin: 0.5rem auto;
-}
 
 

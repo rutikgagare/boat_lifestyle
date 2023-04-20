@@ -1,10 +1,9 @@
 .product {
   /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
   border-radius: 1rem;
-  min-width: 290px;
-  max-width: 300o;
+  width: 270px;
   background-color: rgb(236, 233, 233);
-  margin: auto;
+
 }
 
 .product .productImg{
@@ -72,14 +71,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .product{
+    margin: auto;
+  }
   .productImg img{
     width: 10rem;
     height: 13rem;
-  }
-
-  .product{
-    width: 90%;
-    margin-bottom: 1rem;
   }
 }
 

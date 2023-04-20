@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   box-shadow: 0px 1px 5px rgb(174, 172, 172);
-  z-index: 99;
+  z-index: 10;
 }
 
 .logo{
