@@ -57,7 +57,7 @@ function ProductSection(props) {
       <div className={classes.productSection_content}>
 
       <Swiper
-        className={classes.swiper}
+        className={classes.mySwiper}
         spaceBetween={20}
         // centeredSlides={true}
         loop={true}
