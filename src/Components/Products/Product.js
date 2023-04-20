@@ -15,7 +15,7 @@ function Product(props) {
       name: props.name,
       url: props.url,
       price: props.price,
-      // quantity: qtyInputRef.current.value
+      quantity: qtyInputRef.current.value
     });
 
     qtyInputRef.current.value = 1;
@@ -32,7 +32,7 @@ function Product(props) {
         <h4>₹ {props.price}</h4>
         <hr />
         <h4>{props.category}</h4>
-        {/* <span>Quantity : </span> <input ref={qtyInputRef} type='number' placeholder='1' defaultValue={1} id='qty' /> */}
+        <span>Quantity : </span> <input ref={qtyInputRef} type='number' placeholder='1' defaultValue={1} id='qty' />
         <div className={classes.cartButton}>
           <button onClick={addToCartHandler}>ADD TO CART</button>
         </div>
